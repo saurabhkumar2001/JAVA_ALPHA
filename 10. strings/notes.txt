@@ -1,0 +1,28 @@
+what is interning ?
+
+String str1 = "Tony";
+String str2 = "Tony";
+String str3 = new String("Tony");
+
+phle line ko execute krne k baad str1 naam k phla variable mera stack m aa jayega aur vo tony k trf point kr rhi hogi aur tony hmari heap m hogi second line k liye str 2 toh nya bnega stack k ander but heap k ander ek nya tony nhi bnega vo  usko hi point krega this whole scenario is called as interning adn str1 and str2 is called as refrence variable
+ab jaise hi new keyword k use k baad ek nya tony create hoga heap m toh str3 ek alag object ko point krega and reference variable alag although value same h 
+
+String str = "Tony"
+for i= a to a =z
+str+=tony 
+
+o/p
+tonya
+tonyab
+tonyabc
+tonyabcd
+.
+.
+.
+.
+.
+.
+.
+.
+tonyabcdefghijklmnopqrstuvwxyz
+and iski time complaxity n^2 ho jayegi kyuki ye ek single line m nhi kr rha h change ye hr baar ek nya copy bna rha h and baar str ek nye value ko point kr rha h toh kbhi bhi hume string m baar baar value change krna hota h toh hum ek nya data structure ki baat krte h jiska naam h setbuilder ....
